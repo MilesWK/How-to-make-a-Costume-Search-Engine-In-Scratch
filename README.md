@@ -34,7 +34,7 @@ After the "Next costume" block, we need to create a "if else" statement. This is
 
 Inside the "if" statment, add the "Stop [this script]" block.
 
-Inside the "else" section of the "if" statement, add a "Add "thing" to [list]" block. In that block, replace the "thing" with the "Costume[name]" variable. Make sure you set the list you are adding the item to to our "Costumes" list. 
+Inside the "else" section of the "if" statement, add a "Add "thing" to [list]" boolean. In that block, replace the "thing" with the "Costume[name]" variable. Make sure you set the list you are adding the item to to our "Costumes" list. 
 
 After we finish that, we are done with getting the costumes. 
 
@@ -47,12 +47,15 @@ When we run our program, we should get this output in our list:
 
 ![image](https://user-images.githubusercontent.com/121042782/208532697-d77abc26-a287-48ee-8102-eed08cae5861.png)
 
-The list might look diferant due to what costumes you added to your sprite. 
+Your list might have a diferant output due to what costumes you added to your sprite. If you think something is incorrect, you can look at the costumes you added to your sprite and compare them to the output recieved by the list. 
 
+**Step 3:** Making it search:
 
+We need to make a program that recieves input, finds all the information in our "Costumes" list that matches the input, and outputs the information it got. This may sound very hard, but it is acctually fairly easy. 
 
+To start out, we need to create a new variable called "Item number in Costumes." Next, we need to create a list called "Search Results." And finally, we need to create a My-Block called "Run search" with a Text/Number input called "Search."
 
+In the beginning of the definition of our new My-block, we need to delete all of the items in the "Search Results" list with the "Delete all of [Search Results]."
 
-
-       
+Next, we need to set the "Item number in Costumes" variable to 0 with the "Set [Item number in Costumes] to [1]" block. Now we need to get a "Repeat" block and set the times the program inside of the "Repeat" block to the "Length of [Costumes]" variable. 
 
