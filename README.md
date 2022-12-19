@@ -1,4 +1,5 @@
-Hello! This little document is going to teach you how to make a Costume Search Engine in Scratch. 
+Hello! This little document is going to teach you how to make a Costume Search Engine in Scratch! There is a pre-made .sb3 file in this project so you can see what you are making. Also, check out the more advanced version of this at https://scratch.mit.edu/projects/723200352/. Let's get started!
+
 What you need:  
   - A Scratch account
   - A knowlage of Scratch.
@@ -23,7 +24,9 @@ The other way (the one we are going to use) is to make a program that finds all 
 
 To start, we are going to make a new My-Block called "Get Costumes" and a list called "Costumes." For the first line in the definition of the My-Block, we are going to delete all the items in the "Costumes" list:
 
-![image](https://user-images.githubusercontent.com/121042782/208460289-e0de1adf-6538-4aca-a7bf-07fe9e2c684c.png)
+![image](https://user-images.githubusercontent.com/121042782/208460289-e0de1adf-6538-4aca-a7bf-07fe9e2c684c.png).
+
+Step 4:
 
 
        
