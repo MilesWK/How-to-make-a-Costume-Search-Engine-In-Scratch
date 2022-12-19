@@ -57,5 +57,10 @@ To start out, we need to create a new variable called "Item number in Costumes."
 
 In the beginning of the definition of our new My-block, we need to delete all of the items in the "Search Results" list with the "Delete all of [Search Results]."
 
-Next, we need to set the "Item number in Costumes" variable to 0 with the "Set [Item number in Costumes] to [1]" block. Now we need to get a "Repeat" block and set the times the program inside of the "Repeat" block to the "Length of [Costumes]" variable. 
+Next, we need to set the "Item number in Costumes" variable to 0 with the "Set [Item number in Costumes] to [1]" block. Now we need to get a "Repeat" loop and set the times the program inside of the "Repeat" loop to the "Length of [Costumes]" variable. 
+
+Inside the "Repeat" loop, add a "if else" statement. In the boolean input of the "if else" statement, add a "contains" boolean. In the first text input of the "contains" block, add the "item [] in [costumes]" variable. in the Text input of the "item [] in []" variable, add the "Item number in Costumes" variable we made. In the final input for the "contains" block, add the "Search" variable inside the "Run Search" My-Block. Now our "contains" boolean is complete! Here is how it should look: 
+
+![image](https://user-images.githubusercontent.com/121042782/208540697-74c322c6-a187-474f-972a-ac6fe3eaa7ed.png)
+
 
