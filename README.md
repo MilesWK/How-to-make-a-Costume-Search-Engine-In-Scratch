@@ -79,7 +79,7 @@ We have finished our search! Here is how the "Run Search" My-Block should look:
 
 ![image](https://user-images.githubusercontent.com/121042782/208703214-d85b540b-fe34-43ad-b461-d91b098de8b7.png)
 
-**Step 4: Making it work!:**
+**Step 4: Adding a setup:**
 
 We need to make a brodcast block called "Setup." place a "When I recieve [Setup]" block. Underneath that add a "Show list [Search Results]" block, then under _that_, add a "hide" block, and finally, add a "Hide list [costumes]."
 
@@ -87,3 +87,18 @@ Here is how our brodcast block should look:
 
 ![image](https://user-images.githubusercontent.com/121042782/208705399-a59a9a88-86f6-49d8-b274-b699b9bad852.png)
 
+**Step 5: Creating a start:**
+
+We need to create another Brodcast called "Start." Get a "When I recive [Start]" block, and underneath, add a "Delete all of [Search Results]" block. Next, add a "add [Search something with the prompt below!!!] to [Search Results]" block. After that, add our My-Block called "Get Costumes." Next, get a "Forever" loop. Inside the forever loop, add a "Ask [Type here to search!!!] and wait" block. Underneath _that_, add our other My-Block called "Run Search." In the input of the My-Block, add the "Answer" variable from the "Sensing" section. 
+
+Finally, get a "When flag clicked" block. Underneath add a "Brodcast [setup] and wait" block. and finally, add a "brodcast [start]" block!
+
+Here is how all the programs should look:
+
+**The "When Flag Clicked" script:**
+
+![image](https://user-images.githubusercontent.com/121042782/208709321-2bb9cb28-f80a-4d58-8ff0-81a460b00355.png)
+
+**The "Setup" Brodcast:**
+
+![image](https://user-images.githubusercontent.com/121042782/208709437-66e2ac5e-67fd-4145-83d1-ed6ce660d8bf.png)
