@@ -72,3 +72,18 @@ We have finished our "if" part of our "if else" statement! Now we need to get ou
 ![image](https://user-images.githubusercontent.com/121042782/208697089-80f82f3c-e6e0-4fcd-82f4-25176b7e8b4d.png)
 
 Now we need to make the output. Underneath the "Repeat" loop we need another "if else" statement. In the boolean input, we need an "equals" operator. we need it to say "[Length of [Search Results]] = [0]" Again, make sure you get the "Length of [list]" block comes from the "List" section and not the "operators" section. Inside the "if" section, add a "Insert [We couldn't find any results for the search.] at [1] of [Search Results]." Underneath _that_ block, add another "Insert [Press enter to search again.] at [2] of [Search Results]."
+
+In the "else" statement, add a "Insert [We found some results!] at [1] of [Search Results]." Next, add a "Insert [Here they are:] at [2] of [Search Results]." Finally, add a "add [Press enter to search again.] to [Search Results]."
+
+We have finished our search! Here is how the "Run Search" My-Block should look:
+
+![image](https://user-images.githubusercontent.com/121042782/208703214-d85b540b-fe34-43ad-b461-d91b098de8b7.png)
+
+**Step 4: Making it work!:**
+
+We need to make a brodcast block called "Setup." place a "When I recieve [Setup]" block. Underneath that add a "Show list [Search Results]" block, then under _that_, add a "hide" block, and finally, add a "Hide list [costumes]."
+
+Here is how our brodcast block should look:
+
+![image](https://user-images.githubusercontent.com/121042782/208705399-a59a9a88-86f6-49d8-b274-b699b9bad852.png)
+
