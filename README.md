@@ -4,7 +4,7 @@ Hello! This little document is going to teach you how to make a Costume Search E
 
 What you need:  
   - A Scratch account
-  - A knowlage of Scratch.
+  - A knowledge of Scratch.
 
 If you have all that... You are ready to go!!! 
 
@@ -32,7 +32,7 @@ Next in the definition, add a Forever loop with a "Next costume" block inside:
 
 After the "Next costume" block, we need to create a "if else" statement. This is where it gets tricky. In the condition of the "if" statement, add a ![image](https://user-images.githubusercontent.com/121042782/208530906-0429d088-1b1f-4dfb-945c-f259cacf20c8.png) block. In the "thing" option, add the "Costume[name]" variable. 
 
-Inside the "if" statment, add the "Stop [this script]" block.
+Inside the "if" statement, add the "Stop [this script]" block.
 
 Inside the "else" section of the "if" statement, add a "Add "thing" to [list]" boolean. In that block, replace the "thing" with the "Costume[name]" variable. Make sure you set the list you are adding the item to to our "Costumes" list. 
 
@@ -47,11 +47,11 @@ When we run our program, we should get this output in our list:
 
 ![image](https://user-images.githubusercontent.com/121042782/208532697-d77abc26-a287-48ee-8102-eed08cae5861.png)
 
-Your list might have a diferant output due to what costumes you added to your sprite. If you think something is incorrect, you can look at the costumes you added to your sprite and compare them to the output recieved by the list. 
+Your list might have a different output due to what costumes you added to your sprite. If you think something is incorrect, you can look at the costumes you added to your sprite and compare them to the output received by the list. 
 
 **Step 3:** Making it search:
 
-We need to make a program that recieves input, finds all the information in our "Costumes" list that matches the input, and outputs the information it got. This may sound very hard, but it is acctually fairly easy. 
+We need to make a program that receives input, finds all the information in our "Costumes" list that matches the input, and outputs the information it got. This may sound very hard, but it is actually fairly easy. 
 
 To start out, we need to create a new variable called "Item number in Costumes." Next, we need to create a list called "Search Results." And finally, we need to create a My-Block called "Run search" with a Text/Number input called "Search."
 
@@ -81,17 +81,17 @@ We have finished our search! Here is how the "Run Search" My-Block should look:
 
 **Step 4: Adding a setup:**
 
-We need to make a brodcast block called "Setup." place a "When I recieve [Setup]" block. Underneath that add a "Show list [Search Results]" block, then under _that_, add a "hide" block, and finally, add a "Hide list [costumes]."
+We need to make a broadcast block called "Setup." place a "When I receive [Setup]" block. Underneath that add a "Show list [Search Results]" block, then under _that_, add a "hide" block, and finally, add a "Hide list [costumes]."
 
-Here is how our brodcast block should look:
+Here is how our broadcast block should look:
 
 ![image](https://user-images.githubusercontent.com/121042782/208705399-a59a9a88-86f6-49d8-b274-b699b9bad852.png)
 
 **Step 5: Creating a start:**
 
-We need to create another Brodcast called "Start." Get a "When I recive [Start]" block, and underneath, add a "Delete all of [Search Results]" block. Next, add a "add [Search something with the prompt below!!!] to [Search Results]" block. After that, add our My-Block called "Get Costumes." Next, get a "Forever" loop. Inside the forever loop, add a "Ask [Type here to search!!!] and wait" block. Underneath _that_, add our other My-Block called "Run Search." In the input of the My-Block, add the "Answer" variable from the "Sensing" section. 
+We need to create another Broadcast called "Start." Get a "When I receive [Start]" block, and underneath, add a "Delete all of [Search Results]" block. Next, add a "add [Search something with the prompt below!!!] to [Search Results]" block. After that, add our My-Block called "Get Costumes." Next, get a "Forever" loop. Inside the forever loop, add a "Ask [Type here to search!!!] and wait" block. Underneath _that_, add our other My-Block called "Run Search." In the input of the My-Block, add the "Answer" variable from the "Sensing" section. 
 
-Finally, get a "When flag clicked" block. Underneath add a "Brodcast [setup] and wait" block. and finally, add a "brodcast [start]" block!
+Finally, get a "When flag clicked" block. Underneath add a "Broadcast [setup] and wait" block. and finally, add a "broadcast [start]" block!
 
 Now we finished our program!
 
@@ -105,11 +105,11 @@ Here is how all the programs should look:
 
 ![image](https://user-images.githubusercontent.com/121042782/208709321-2bb9cb28-f80a-4d58-8ff0-81a460b00355.png)
 
-**The "Setup" Brodcast:**
+**The "Setup" Broadcast:**
 
 ![image](https://user-images.githubusercontent.com/121042782/208709437-66e2ac5e-67fd-4145-83d1-ed6ce660d8bf.png)
 
-**The "Start" Brodcast:**
+**The "Start" Broadcast:**
 
 ![image](https://user-images.githubusercontent.com/121042782/208731351-18307563-1c3e-4112-9e69-616d93219ad3.png)
 
@@ -123,7 +123,7 @@ Here is how all the programs should look:
 
 ##Notes:
 
-There is a .sb3 file attchched to this repos. It is the program that you make in this repos. 
+There is a .sb3 file attached to this repos. It is the program that you make in this repos. 
 
 There are two "Length of []" blocks. One, the one from the "operators" section shows how many LETTERS there are in a list, and the other one is from the "list" section which shows how many items are in a list. Make sure not to confuse these two!
 
@@ -136,3 +136,5 @@ The list "Length of []:"
 ![image](https://user-images.githubusercontent.com/121042782/208732360-d47b41bb-5bf2-4e85-b447-c05a50352156.png)
 
 Thank you for reading this repository! If you use this code in a Scratch project, please give credit to me! Thank you!!!
+
+
