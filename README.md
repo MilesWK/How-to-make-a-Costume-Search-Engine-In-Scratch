@@ -10,7 +10,7 @@ If you have all that... You are ready to go!!!
 
 **Step 1**: Make a new sprite:
 
-You need to create a new sprite with a variety of random costumes. I would recomennd using the "surprise" button to do this. Do it about 10 times. 
+You need to create a new sprite with a variety of random costumes. I would recommend using the "surprise" button to do this. Do it about 10 times. 
 
 ![image](https://user-images.githubusercontent.com/121042782/208458270-4e967888-c69b-4a55-b15e-7800a5a40117.png)
 
