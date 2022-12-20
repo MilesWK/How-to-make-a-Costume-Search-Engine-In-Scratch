@@ -70,3 +70,5 @@ Make sure you put that in the "if else" statement. In the "if" section, add a "C
 We have finished our "if" part of our "if else" statement! Now we need to get our "else" statement up and running. This part is easy. All we need to do is place a "Change [Item number in Costumes] by [1]" block. And now we have finished our "if else" statement. Here is how the completed statement should look:
 
 ![image](https://user-images.githubusercontent.com/121042782/208697089-80f82f3c-e6e0-4fcd-82f4-25176b7e8b4d.png)
+
+Now we need to make the output. Underneath the "Repeat" loop we need another "if else" statement. In the boolean input, we need an "equals" operator. we need it to say "[Length of [Search Results]] = [0]" Again, make sure you get the "Length of [list]" block comes from the "List" section and not the "operators" section. Inside the "if" section, add a "Insert [We couldn't find any results for the search.] at [1] of [Search Results]." Underneath _that_ block, add another "Insert [Press enter to search again.] at [2] of [Search Results]."
