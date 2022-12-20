@@ -57,10 +57,16 @@ To start out, we need to create a new variable called "Item number in Costumes."
 
 In the beginning of the definition of our new My-block, we need to delete all of the items in the "Search Results" list with the "Delete all of [Search Results]."
 
-Next, we need to set the "Item number in Costumes" variable to 0 with the "Set [Item number in Costumes] to [1]" block. Now we need to get a "Repeat" loop and set the times the program inside of the "Repeat" loop to the "Length of [Costumes]" variable. 
+Next, we need to set the "Item number in Costumes" variable to 0 with the "Set [Item number in Costumes] to [1]" block. Now we need to get a "Repeat" loop and set the times the program inside of the "Repeat" loop to the "Length of [Costumes]" variable **FROM THE LIST SECTION<sup>1</sup>.** 
 
 Inside the "Repeat" loop, add a "if else" statement. In the boolean input of the "if else" statement, add a "contains" boolean. In the first text input of the "contains" block, add the "item [] in [costumes]" variable. in the Text input of the "item [] in []" variable, add the "Item number in Costumes" variable we made. In the final input for the "contains" block, add the "Search" variable inside the "Run Search" My-Block. Now our "contains" boolean is complete! Here is how it should look: 
 
 ![image](https://user-images.githubusercontent.com/121042782/208540697-74c322c6-a187-474f-972a-ac6fe3eaa7ed.png)
 
+Make sure you put that in the "if else" statement. In the "if" section, add a "Change [Item number in Costumes] by [1]" block, Next we need to add a "Add [string] to [Search results]" Block. In the text input of that block, we need to add a "Item [number] in [Costumes]" input. In the number input, Get a "minus" operator. In the first input, we need to enter our "Item number in Costumes" variable, and in the other input, enter "1." So our "minus" operator says "[Item number in Costumes] - [1]." So our "add [] to [Costumes]" block should look like this:
 
+![image](https://user-images.githubusercontent.com/121042782/208695494-7cea4f4f-901f-4cb0-b0f5-e7cd7daf6bfb.png)
+
+We have finished our "if" part of our "if else" statement! Now we need to get our "else" statement up and running. This part is easy. All we need to do is place a "Change [Item number in Costumes] by [1]" block. And now we have finished our "if else" statement. Here is how the completed statement should look:
+
+![image](https://user-images.githubusercontent.com/121042782/208697089-80f82f3c-e6e0-4fcd-82f4-25176b7e8b4d.png)
