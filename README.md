@@ -57,7 +57,7 @@ To start out, we need to create a new variable called "Item number in Costumes."
 
 In the beginning of the definition of our new My-block, we need to delete all of the items in the "Search Results" list with the "Delete all of [Search Results]."
 
-Next, we need to set the "Item number in Costumes" variable to 0 with the "Set [Item number in Costumes] to [1]" block. Now we need to get a "Repeat" loop and set the times the program inside of the "Repeat" loop to the "Length of [Costumes]" variable **FROM THE LIST SECTION<sup>1</sup>.** 
+Next, we need to set the "Item number in Costumes" variable to 0 with the "Set [Item number in Costumes] to [1]" block. Now we need to get a "Repeat" loop and set the times the program inside of the "Repeat" loop to the "Length of [Costumes]" variable **FROM THE LIST SECTION.** 
 
 Inside the "Repeat" loop, add a "if else" statement. In the boolean input of the "if else" statement, add a "contains" boolean. In the first text input of the "contains" block, add the "item [] in [costumes]" variable. in the Text input of the "item [] in []" variable, add the "Item number in Costumes" variable we made. In the final input for the "contains" block, add the "Search" variable inside the "Run Search" My-Block. Now our "contains" boolean is complete! Here is how it should look: 
 
@@ -102,3 +102,38 @@ Here is how all the programs should look:
 **The "Setup" Brodcast:**
 
 ![image](https://user-images.githubusercontent.com/121042782/208709437-66e2ac5e-67fd-4145-83d1-ed6ce660d8bf.png)
+
+**The "Start" Brodcast:**
+
+![image](https://user-images.githubusercontent.com/121042782/208731351-18307563-1c3e-4112-9e69-616d93219ad3.png)
+
+**The "Get Costumes" My-Block:**
+
+![image](https://user-images.githubusercontent.com/121042782/208731486-05ed9812-fdd1-49d6-a2d6-a883d670494f.png)
+
+**The "Run Search" My-Block:**
+
+![image](https://user-images.githubusercontent.com/121042782/208731653-c40ea51a-2a33-4e15-a31f-ce0910f9de59.png)
+
+##Notes:
+
+There is a .sb3 file attchched to this repos. It is the program that you make in this repos. 
+
+There are two "Length of []" blocks. One, the one from the "operators" section shows how many LETTERS there are in a list, and the other one is from the "list" section which shows how many items are in a list. Make sure not to confuse these two!
+
+The operator "Length of []:"
+
+![image](https://user-images.githubusercontent.com/121042782/208732271-b48cf56f-0c43-44d1-b57c-fd500d60dd55.png)
+
+The list "Length of []:"
+
+![image](https://user-images.githubusercontent.com/121042782/208732360-d47b41bb-5bf2-4e85-b447-c05a50352156.png)
+
+Thank you for reading this repository! If you use this code in a Scratch project, please give credit to me! Thank you!!!
+
+
+
+
+
+
+
