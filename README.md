@@ -93,6 +93,12 @@ We need to create another Brodcast called "Start." Get a "When I recive [Start]"
 
 Finally, get a "When flag clicked" block. Underneath add a "Brodcast [setup] and wait" block. and finally, add a "brodcast [start]" block!
 
+Now we finished our program!
+
+**Formatting:**
+
+Make the "Search Results" list cover the whole canvas so you can read it easier!!!
+
 Here is how all the programs should look:
 
 **The "When Flag Clicked" script:**
@@ -130,10 +136,3 @@ The list "Length of []:"
 ![image](https://user-images.githubusercontent.com/121042782/208732360-d47b41bb-5bf2-4e85-b447-c05a50352156.png)
 
 Thank you for reading this repository! If you use this code in a Scratch project, please give credit to me! Thank you!!!
-
-
-
-
-
-
-
